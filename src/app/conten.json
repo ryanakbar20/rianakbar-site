@@ -1,0 +1,86 @@
+{
+  "fullName": "Rian Akbar Ferdiansyah",
+  "profession": "Software Engineer",
+  "summary": "Passionate Software Engineer with over 3 years of experience in developing web applications and backend systems. Proficient in writing clear, concise code for easy maintenance and troubleshooting. Experienced in collaborating with both small and large teams on various projects across different companies.",
+  "buttonPrimaryLabel": "Contact me",
+  "buttonSecondaryLabel": "Download My CV",
+  "experience": [
+    {
+      "period": "APR 2022 - PRESENT",
+      "title": "Senior Frontend Engineer | Majoo Indonesia",
+      "description": [
+        "Lead the development and maintenance of the @majoo-ui/react library, ensuring code quality, scalability, reusability, and documentation including usage guides, API references, and examples.",
+        "Collaborate with the team to define and implement new components and features based on user feedback and industry standards.",
+        "Address critical bugs in production and enhance application performance to optimize the user experience."
+      ],
+      "tech": [
+        "React JS",
+        "JavaScript",
+        "TypeScript",
+        "Redux",
+        "Storybook",
+        "Radix UI",
+        "Stitches"
+      ]
+    },
+    {
+      "period": "MAR 2021 - APR 2022",
+      "title": "Frontend Engineer | Dattabot",
+      "description": [
+        "Transform analytical data into a visually engaging dashboard and seamlessly integrate it with interactive charts for enhanced clarity and user interaction.",
+        "Integrating digital signature and e-stamping features into web-based applications with a seamless and user-friendly experience.",
+        "Implemented Redux Toolkit to achieve a more concise syntax and enhance productivity.",
+        "Assume the role of a trainer for fundamental programming courses, focusing on TypeScript for both frontend and backend departments."
+      ],
+      "tech": [
+        "React JS",
+        "Next JS",
+        "JavaScript",
+        "TypeScript",
+        "Redux Toolkit",
+        "Google Maps API",
+        "Ant Design",
+        "Tailwind CSS",
+        "Chart JS"
+      ]
+    },
+    {
+      "period": "JUN 2020 - MAR 2021",
+      "title": "Frontend Engineer | NashTa",
+      "description": [
+        "Designing MicroFrontend applications to achieve a clear separation of responsibilities, enhance scalability, and facilitate seamless collaboration with large teams, ensuring easy troubleshooting and fixes.",
+        "Conduct unit testing on each code component to ensure a resilient and easily maintainable application.",
+        "Develop applications with an interactive and responsive interface to ensure compatibility across various device sizes.",
+        "Integrating GraphQL for enhanced schema flexibility and increased efficiency in frontend applications."
+      ],
+      "tech": [
+        "React JS",
+        "Next JS",
+        "JavaScript",
+        "TypeScript",
+        "Redux",
+        "Jest",
+        "React Testing Library",
+        "GraphQL",
+        "Bootstrap"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "CEISA 4.0 | Indonesian Customs and Excise",
+      "description": "Web application platform crafted to serve as the Service User Portal for the Directorate General of Customs and Excise. This innovative platform stands at the forefront of technology, offering a comprehensive and user-centric solution to meet the diverse needs and requirements of customs and excise processes.",
+      "image": "project-bea-cukai"
+    },
+    {
+      "title": "My IndiHome | IndiHome by Telkomsel",
+      "description": "My Indihome app provides a user-friendly platform for Indihome subscribers, allowing them to conveniently manage their accounts, track internet usage, view and pay bills, and potentially access additional features.",
+      "image": "project-my-indihome"
+    },
+    {
+      "title": "Majoo Dashboard | Majoo Technology Indonesia",
+      "description": "Majoo Application encompasses a range of essential features including Point of Sales, Accounting, Online Store, Outlet Management, Inventory Management, and Product Management.",
+      "image": "project-majoo-dashboard"
+    }
+  ]
+}
