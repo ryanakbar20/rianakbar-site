@@ -7,7 +7,7 @@ const poppins = Poppins({ weight: "500", subsets: ["latin"] });
 export const metadata = {
   title: "Rian Akbar Ferdiansyah",
   description:
-    "Passionate Software Engineer with over 3 years of experience in developing web applications and backend systems.",
+    "Passionate Software Engineer with over 4 years of experience in developing web applications and backend systems.",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
         <meta name="description" content={metadata.description} />
         <meta
           name="keywords"
-          content="software engineer, web development, freelance, programmer, frontend, frontend engineer, frontend developer"
+          content="software engineer, web development, freelance, programmer, frontend, frontend engineer, frontend developer, rian, rian akbar, rian akbar ferdiansyah, ryan, ryan akbar, ryan akbar ferdiansyah"
         />
         <meta name="author" content="Rian Akbar Ferdiansyah" />
 
@@ -42,6 +42,8 @@ export default function RootLayout({
 
         {/* Add canonical link to avoid duplicate content */}
         <link rel="canonical" href="https://rianakbar.com/" />
+
+        <link rel="icon" type="image/svg+xml" href="./favicon.ico" />
       </Head>
       <body className={poppins.className}>{children}</body>
     </html>

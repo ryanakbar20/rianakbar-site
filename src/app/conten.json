@@ -6,7 +6,24 @@
   "buttonSecondaryLabel": "Download My CV",
   "experience": [
     {
-      "period": "APR 2022 - PRESENT",
+      "period": "JAN 2024 - PRESENT",
+      "title": "Fullstack Developer | AIA Indonesia",
+      "description": [
+        "Develop the iRecruit application to support the agency division in recruiting new agents by simplifying the process and reducing onboarding time.",
+        "Collaborate with the Human-Centered Design team to enhance the iRecruit business process, application flow, and overall user experience."
+      ],
+      "tech": [
+        "Vue JS",
+        "JavaScript",
+        "TypeScript",
+        "Pinia",
+        "Vuetify",
+        "Java",
+        "Spring Boot"
+      ]
+    },
+    {
+      "period": "APR 2022 - JAN 2024",
       "title": "Senior Frontend Engineer | Majoo Indonesia",
       "description": [
         "Lead the development and maintenance of the @majoo-ui/react library, ensuring code quality, scalability, reusability, and documentation including usage guides, API references, and examples.",
@@ -81,6 +98,11 @@
       "title": "Majoo Dashboard | Majoo Technology Indonesia",
       "description": "Majoo Application encompasses a range of essential features including Point of Sales, Accounting, Online Store, Outlet Management, Inventory Management, and Product Management.",
       "image": "project-majoo-dashboard"
+    },
+    {
+      "title": "iRecruit AIA | AIA Indonesia",
+      "description": "iRecruit AIA is a recruitment application designed to streamline the entire process for new agents, from registration to onboarding, while delivering an exceptional user experience. The platform reduces the recruitment timeline from 25 days to just 4-6 days.",
+      "image": "project-aia-indonesia"
     }
   ]
 }

@@ -8,6 +8,7 @@ import iconGithub from "@/assets/icons/ic-github.svg";
 import previewBeaCukai from "@/assets/images/project-bea-cukai.png";
 import previewMyIndihome from "@/assets/images/project-my-indihome.png";
 import previewMajooDashboard from "@/assets/images/project-majoo-dashboard.png";
+import previewIrecruit from "@/assets/images/project-aia-indonesia.png";
 import dataContent from "./conten.json";
 
 import { Poppins } from "next/font/google";
@@ -29,6 +30,7 @@ const imageProject = {
   "project-bea-cukai": previewBeaCukai,
   "project-my-indihome": previewMyIndihome,
   "project-majoo-dashboard": previewMajooDashboard,
+  "project-aia-indonesia": previewIrecruit,
 };
 
 function TechCard({ children }: { children: string | JSX.Element }) {
@@ -44,10 +46,10 @@ function TechCard({ children }: { children: string | JSX.Element }) {
 
 export default function Home() {
   const handleDownload = () => {
-    const pdfUrl = "/documents/CV - RIAN AKBAR FERDIANSYAH 2024.pdf";
+    const pdfUrl = "/documents/CV RIAN AKBAR FERDIANSYAH 2025.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "CV - RIAN AKBAR FERDIANSYAH 2024.pdf";
+    link.download = "CV RIAN AKBAR FERDIANSYAH 2025.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -69,7 +71,7 @@ export default function Home() {
       }}
     >
       <header className="container py-12">
-        <a
+        {/* <a
           className="flex  gap-2"
           href="https://vercel.com"
           target="_blank"
@@ -85,7 +87,7 @@ export default function Home() {
             height={24}
             priority
           />
-        </a>
+        </a> */}
       </header>
 
       <section className="container flex flex-col space-y-8 md:space-y-0 md:flex-row md:items-start lg:items-center md:space-x-12">
