@@ -96,7 +96,6 @@ export default function Home() {
             alt="Photo Profile"
             width={400}
             priority
-            unoptimized
           />
           <Image
             className="rounded-xl shadow-md block lg:hidden"
@@ -104,7 +103,6 @@ export default function Home() {
             alt="Photo Profile"
             width={200}
             priority
-            unoptimized
           />
         </motion.div>
 
@@ -153,18 +151,13 @@ export default function Home() {
           </div>
           <div className="flex gap-4">
             <a href="https://www.linkedin.com/in/ryanakbar20/" target="_blank">
-              <Image src={iconLinkedin} alt="Linkedin" width={28} unoptimized />
+              <Image src={iconLinkedin} alt="Linkedin" width={28} />
             </a>
             <a href="https://www.instagram.com/ryanakbardev/" target="_blank">
-              <Image
-                src={iconInstagram}
-                alt="Instagram"
-                width={28}
-                unoptimized
-              />
+              <Image src={iconInstagram} alt="Instagram" width={28} />
             </a>
             <a href="https://github.com/ryanakbar20" target="_blank">
-              <Image src={iconGithub} alt="Github" width={28} unoptimized />
+              <Image src={iconGithub} alt="Github" width={28} />
             </a>
           </div>
         </motion.div>
@@ -235,7 +228,6 @@ export default function Home() {
                     src={imageProject[item.image as keyof typeof imageProject]}
                     alt={item.title}
                     className="rounded-xl shadow-md"
-                    unoptimized
                   />
                 </motion.div>
               </div>
