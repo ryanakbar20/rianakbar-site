@@ -1,16 +1,18 @@
 {
   "fullName": "Rian Akbar Ferdiansyah",
-  "profession": "Software Engineer",
-  "summary": "Passionate Software Engineer with over 4 years of experience in developing web applications and backend systems. Proficient in writing clear, concise code for easy maintenance and troubleshooting. Experienced in collaborating with both small and large teams on various projects across different companies.",
-  "buttonPrimaryLabel": "Contact me",
+  "profession": "Lead Software Engineer | Frontend & Fullstack Specialist",
+  "summary": "Highly driven Software Engineer with 5+ years of experience leading end-to-end development of web and mobile applications. Skilled in React, Next.js, TypeScript, Node.js, Golang, and Java Spring Boot. Proven ability in building scalable architectures, reusable UI libraries, and high-performance systems. Experienced in mentoring engineers, improving processes, and delivering user-focused digital solutions that accelerate business growth.",
+  "buttonPrimaryLabel": "Get in Touch",
   "buttonSecondaryLabel": "Download My CV",
   "experience": [
     {
-      "period": "JAN 2024 - PRESENT",
-      "title": "Fullstack Developer | AIA Indonesia",
+      "period": "JAN 2024 – PRESENT",
+      "title": "Fullstack Developer Lead | AIA Indonesia",
       "description": [
-        "Develop the iRecruit application to support the agency division in recruiting new agents by simplifying the process and reducing onboarding time.",
-        "Collaborate with the Human-Centered Design team to enhance the iRecruit business process, application flow, and overall user experience."
+        "Spearheaded enhancements on the iRecruit platform, accelerating agent onboarding from 25 days to just 4–6 days.",
+        "Partnered with Human-Centered Design and Business Analyst teams to refine flows and improve user experience.",
+        "Guided frontend engineers during integration sprints to ensure delivery quality and stability.",
+        "Led architecture improvements, reducing technical debt and increasing scalability."
       ],
       "tech": [
         "Vue JS",
@@ -23,12 +25,13 @@
       ]
     },
     {
-      "period": "APR 2022 - JAN 2024",
+      "period": "APR 2022 – JAN 2024",
       "title": "Senior Frontend Engineer | Majoo Indonesia",
       "description": [
-        "Lead the development and maintenance of the @majoo-ui/react library, ensuring code quality, scalability, reusability, and documentation including usage guides, API references, and examples.",
-        "Collaborate with the team to define and implement new components and features based on user feedback and industry standards.",
-        "Address critical bugs in production and enhance application performance to optimize the user experience."
+        "Owned and led the development of @majoo-ui/react, a centralized React design system adopted by 30+ engineers.",
+        "Established coding standards, reusable component libraries, and extensive documentation for faster onboarding.",
+        "Enhanced maintainability and test coverage while improving dashboard performance.",
+        "Mentored junior engineers and collaborated with Product and Design for cross-team alignment."
       ],
       "tech": [
         "React JS",
@@ -41,13 +44,13 @@
       ]
     },
     {
-      "period": "MAR 2021 - APR 2022",
+      "period": "MAR 2021 – APR 2022",
       "title": "Frontend Engineer | Dattabot",
       "description": [
-        "Transform analytical data into a visually engaging dashboard and seamlessly integrate it with interactive charts for enhanced clarity and user interaction.",
-        "Integrating digital signature and e-stamping features into web-based applications with a seamless and user-friendly experience.",
-        "Implemented Redux Toolkit to achieve a more concise syntax and enhance productivity.",
-        "Assume the role of a trainer for fundamental programming courses, focusing on TypeScript for both frontend and backend departments."
+        "Transformed analytical data into visually rich dashboards with interactive charts and maps.",
+        "Integrated digital signature and e-stamp modules for secure, user-friendly workflows.",
+        "Optimized development productivity using Redux Toolkit and TypeScript.",
+        "Conducted internal workshops on TypeScript and Redux Toolkit for cross-department engineers."
       ],
       "tech": [
         "React JS",
@@ -62,13 +65,13 @@
       ]
     },
     {
-      "period": "JUN 2020 - MAR 2021",
-      "title": "Frontend Engineer | NashTa",
+      "period": "JUN 2020 – MAR 2021",
+      "title": "Frontend Engineer | NashTa Global Utama",
       "description": [
-        "Designing MicroFrontend applications to achieve a clear separation of responsibilities, enhance scalability, and facilitate seamless collaboration with large teams, ensuring easy troubleshooting and fixes.",
-        "Conduct unit testing on each code component to ensure a resilient and easily maintainable application.",
-        "Develop applications with an interactive and responsive interface to ensure compatibility across various device sizes.",
-        "Integrating GraphQL for enhanced schema flexibility and increased efficiency in frontend applications."
+        "Developed Microfrontend architecture to enable modular apps and clear feature ownership.",
+        "Integrated GraphQL for flexible data fetching and reduced redundant API calls.",
+        "Built responsive UIs optimized across devices with thorough unit testing.",
+        "Improved code maintainability and reliability through automated testing."
       ],
       "tech": [
         "React JS",
@@ -85,23 +88,23 @@
   ],
   "projects": [
     {
-      "title": "CEISA 4.0 | Indonesian Customs and Excise",
-      "description": "Web application platform crafted to serve as the Service User Portal for the Directorate General of Customs and Excise. This innovative platform stands at the forefront of technology, offering a comprehensive and user-centric solution to meet the diverse needs and requirements of customs and excise processes.",
+      "title": "CEISA 4.0 | Indonesian Customs",
+      "description": "A national web portal for the Directorate General of Customs, providing millions of users with secure and efficient access to customs and excise services.",
       "image": "project-bea-cukai"
     },
     {
-      "title": "My IndiHome | IndiHome by Telkomsel",
-      "description": "My Indihome app provides a user-friendly platform for Indihome subscribers, allowing them to conveniently manage their accounts, track internet usage, view and pay bills, and potentially access additional features.",
+      "title": "My IndiHome | Telkomsel",
+      "description": "A customer platform that allows subscribers to manage accounts, track internet usage, and pay bills seamlessly—enhancing nationwide digital adoption.",
       "image": "project-my-indihome"
     },
     {
-      "title": "Majoo Dashboard | Majoo Technology Indonesia",
-      "description": "Majoo Application encompasses a range of essential features including Point of Sales, Accounting, Online Store, Outlet Management, Inventory Management, and Product Management.",
+      "title": "Majoo Dashboard | Majoo Indonesia",
+      "description": "An integrated SaaS dashboard offering Point of Sales, Inventory Management, Accounting, and Online Store capabilities, enabling SMEs with real-time insights and operations.",
       "image": "project-majoo-dashboard"
     },
     {
-      "title": "iRecruit AIA | AIA Indonesia",
-      "description": "iRecruit AIA is a recruitment application designed to streamline the entire process for new agents, from registration to onboarding, while delivering an exceptional user experience. The platform reduces the recruitment timeline from 25 days to just 4-6 days.",
+      "title": "iRecruit | AIA Indonesia",
+      "description": "A recruitment platform streamlining agent onboarding, reducing timelines from 25 days to just 4–6 days, while delivering an improved and seamless user experience.",
       "image": "project-aia-indonesia"
     }
   ]
